@@ -38,9 +38,11 @@ Error generating stack: `+e.message+`
     gap: 24px;
   }
 
-  @media (max-width:864px)
+  @media (max-width:1600px) and (max-height:992px)
   {
-    background-color: red;
+    body{
+      background-color: red;
+    }
   }
 `,or=Ln.div`
   color: white;
