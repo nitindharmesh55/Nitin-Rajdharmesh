@@ -69,10 +69,43 @@ const HeroContainer = styled.div`
     .design{
         position: relative;
         left: 50px;
+       position: relative;
+       }
+    .code{
+      right: 50px;
     }
+
+    @media (min-width:1600px) and (min-height:992px)
+    {
+        height:calc(100vh - 100px);
+        .pro{
+            img{
+                width: 700px;
+                height: 850px;
+            }
+        }
+
+         h1{
+        font-size: 50px;
+        /* color: #fdf7f7; */
+        /* text-shadow: 5px 10px 15px black; */
+        color: black;
+    }
+    p{
+        width: 250px;
+        color: gray;
+        font-style: italic;
+    }
+    .design{
+        position: relative;
+        left: 0px;
+       
+       }
     .code{
         position: relative;
-        right: 50px;
+      right:-70px;
+    }
+
     }
 
 `

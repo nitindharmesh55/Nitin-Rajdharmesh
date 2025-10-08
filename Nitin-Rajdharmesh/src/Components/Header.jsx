@@ -63,9 +63,10 @@ const NavBar = styled.nav`
     gap: 24px;
   }
 
-  @media (max-width:864px)
-  {
-    background-color: red;
+  @media (max-width: 1600px) and (max-height: 992px) {
+    max-width: 100%;
+    justify-content: space-around;
+    margin: 0px auto;
   }
 `;
 

@@ -69,6 +69,8 @@ margin-bottom: 5rem;
         font-size: 24px;
     }
 }
+
+
     
 `
 
@@ -113,4 +115,41 @@ const ProjectContainer = styled.div`
       color: gray;
     }
   }
+
+  @media (min-width:1600px) and (min-height:992px)
+{
+   .card{
+    width:400px;
+    height: 300px;
+    border: 2px solid rgba(212, 212, 212, 0.5);
+    padding: 20px;
+     display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border-radius: 15px;
+      box-shadow: 3px 3px 2px rgba(0,0,0, 0.5);
+
+      &:hover{
+       box-shadow: 3px 3px 10px rgba(5, 3, 3, 0.5);
+}
+
+   
+    img{
+      width: 250px;
+      height: 150px;
+      border-radius: 12px;
+      box-shadow: 2px 1px 3px black;
+     
+    }
+
+    h2{
+      color: gray;
+      text-align: left;
+      margin-top: 5px;
+    }
+    p{
+      color: gray;
+    }
+}}
 `

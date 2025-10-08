@@ -8,12 +8,12 @@ import { Footer } from './Components/Footer';
 const App = () => {
   return (
     <>
-    <Header/>
-    <Hero />
-    <Project />
-    <Footer />
-    
-    
+      <Header />
+      <Hero />
+      <Project />
+     <Footer />
+
+
     </>
   )
 }
